@@ -6,7 +6,7 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-  var num1 = 0, num2 = 0, toplam = 0;
+  var num1 = 0, num2 = 0, sonuc = 0;
 
   final TextEditingController t1 = new TextEditingController(text: "0");
   final TextEditingController t2 = new TextEditingController(text: "0");
@@ -15,7 +15,7 @@ class HomePageState extends State<HomePage> {
     setState(() {
       num1 = int.parse(t1.text);
       num2 = int.parse(t2.text);
-      toplam = num1 + num2;
+      sonuc = num1 + num2;
     });
   }
 
@@ -23,7 +23,7 @@ class HomePageState extends State<HomePage> {
     setState(() {
       num1 = int.parse(t1.text);
       num2 = int.parse(t2.text);
-      toplam = num1 - num2;
+      sonuc = num1 - num2;
     });
   }
 
@@ -31,7 +31,7 @@ class HomePageState extends State<HomePage> {
     setState(() {
       num1 = int.parse(t1.text);
       num2 = int.parse(t2.text);
-      toplam = num1 * num2;
+      sonuc = num1 * num2;
     });
   }
 
@@ -39,7 +39,7 @@ class HomePageState extends State<HomePage> {
     setState(() {
       num1 = int.parse(t1.text);
       num2 = int.parse(t2.text);
-      toplam = num1 ~/ num2;
+      sonuc = num1 ~/ num2;
     });
   }
 
@@ -62,7 +62,7 @@ class HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             new Text(
-              "Sonuç : $toplam",
+              "Sonuç : $sonuc",
               style: new TextStyle(
                   fontSize: 20.0,
                   color: Colors.purple,
