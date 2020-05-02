@@ -1,6 +1,6 @@
 # As a starter app Calculator App
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![Codemagic build status](https://api.codemagic.io/apps/5eacc6da513b9f5b7a396755/5eacc6da513b9f5b7a396754/status_badge.svg)](https://codemagic.io/apps/5eacc6da513b9f5b7a396755/5eacc6da513b9f5b7a396754/latest_build)
 
 Features
 
